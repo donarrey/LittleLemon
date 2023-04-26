@@ -1,7 +1,7 @@
 # from django.http import HttpResponse
 from django.shortcuts import render
 from .forms import BookingForm
-from .models import Menu
+from .models import MenuItem
 from django.core import serializers
 from .models import Booking
 from datetime import datetime
